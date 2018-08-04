@@ -1,0 +1,657 @@
+**** ISO/IEC 27001 ****
+
+- Actúa en los ámbitos de acción de la implementación y la operacón
+
+- IEEE, ISO, ANSI son encargados de estándares
+
+- Beneficios de un estándar:
+	* Reduce costos
+	* Mejora productividad y competitividad
+	* Evita barreras comerciales
+	* Estabilidad, madurez y calidad en las empresas
+	* Evita arquitecturas cerradas
+
+- Beneficios de un estándar desde las TI
+	* Mejor interconexión y compatibilidad
+	* Mejor transferencia de información
+	* Reducción de costos
+	* Especificación de las características
+
+- Tipos de estándar:
+	* Estándar oficial: establecido por organizaciones de estandarización oficiales
+	* Estándar de facto: generalmente aparecen como el desarrollo de empresas u organizaciones. Ganan aceptación y terminan siendo aceptados
+	* Estándar propietario: Son de absoluta propiedad de una coorporación o entidad.
+
+- Definición de estándar: Son acuerdos documentados que contienen especificaciones técnicas u otros criterios precisos para ser usados consistentemente con reglas, guías, o definiciones de características, para asegirar que los materiales, productos, procesos y sevicios se ajusten a su propósito.
+	* Consensuado y acordado
+	* Documentado
+	* Disponible
+	* Especificaciones
+	* Criterios y mecanismos para la implementación y el control
+
+- ISO es internacional
+
+- IEC -> electrotecnia
+
+- ISO e IEC trabajan en conjunto para producir estándares internacionales
+
+- 75% para aprobar norma internacional
+
+- Información -> activo importante y valioso 
+	* Tipos: estrátegica, financiera, clientes, terceros, empleados, etc
+	* Formatos: impresa, digital, correo, hablada, etc
+
+-Seguridad de la información -> proteger intereses del negocio que dependan de la información
+	* Confidencialidad -> información para personas autorizadas
+	* Integridad -> información completa, precisa y protegida contra modificaciones
+	* Disponibilidad -> información disponible y utilizable en cualquier momento
+
+- Proteger información contra riesgos y amenazas:
+	* Fortuito -> incendios, inundaciones, etc
+	* Deliberadas -> fraudes, etc
+
+- Sistema de gestión de la seguridad de la información (SGSI)
+	* Enfoque de riesgos del negocio
+	* Establecer, implementar, operar, monitorear, mantener y mejorar la seguridad de la información
+
+- ISO/IEC 27000 marco para la SGSI
+	* Aplicable en cualquier tipo de organización
+	* Permite certificar una empresa (necesita auditoria)
+
+- Características ISO 27001
+	* Requitisitos para la SGSI
+	* Requisitos para quienes certifican
+	* Dan apoyo, orientación e interpretación para el establecimiento, implementación, mantenimiento y mejora de un SGSI
+	* Entrega directrices para ISMS
+	* Sirve de evaluación
+
+- Solo la ISO 27001 puede ser certifica dentro de la SGSI
+
+- Con la ISO 27001 primero se debe investigar riesgos potenciales y luego definir lo neceario para evitar que se produzcan
+
+- Por lo tanto la filosofía de la 27001 es la gestión de riesgos
+
+- Medidas de seguridad: Políticas, procedimientos e implementación técnica
+
+
+- Objetivo de control: enunciado que describe lo que se desea alcanzar, resultado de la implementación de controles
+
+- Control: medida que modifica el riesgo
+
+- Variables de un riesgo: probabilidad e impacto
+
+- 14 dominios de control que intentan cubrir todos los ámbitos
+
+- Los dominios consideran 35 objetivos de control y 114 controles de seguridad
+
+- Implementar un SGSI implica las normas 27001 y 27002
+
+- Ciclo de Deming -> Planificar, hacer, verificar y actuar. Ciclo constante y ciclico
+	* Planificar: creación SGSI, alcance y politica
+		- Análisis de riesgos
+		- Definición del plan de tratamiento de riesgos
+		- Controles de seguridad
+	* Hacer: implementación, operación y ejecución del plan de tratamiento de riesgos
+		- Incluye aspectos técnicos, procesos, procedimientos, métricas, indicadores, implantación de controles y capacitación
+	* Verificar: Seguimiento, medición, análisis y evaluación de la implementación del plan de acuerdo a controles de la ISO 27001
+		- Auditorias internas y externas
+		- Revisión global de la SGSI por la alta dirección
+	* Actuar: acciones correctivas, preventivas y mejoras a lo anterior
+
+- ISO 27001 se divide en 10 secciones
+	* de la 4 a la 7 -> Planificar
+	* 8 -> Hacer
+	* 9 -> Verificar
+	* 10 -> Actuar
+
+- Implementación exitosa de SGSI:
+	* Politicas y objetivos
+	* Gestión de riesgos
+	* Compromiso de la dirección
+	* Uso continuo
+	* Certificación
+
+- Certificación es posterior e independiente a la implementación SGSI. se realiza cada 3 años.
+
+- Beneficios de la cerificación:
+	* Eficacia
+	* Apoyo a la dirección
+	* Conciencia, responsabilidad y sensibilización
+	* Confianza clientes
+	* Integración SGSI con otros sistemas de gestión
+	* Implementa seguridad de la información en los procesos
+
+- Implica esfuerzo y evidencia de que la organización:
+	* Adherencia a politicas, óbjetivos y procedimientos
+	* SGSI concuerda con requisitos normativos
+	* Alcanza objetivos de la política de seguridad
+
+- Auditóría certificación se focaliza:
+	* Evaluar riesgos
+	* Documentación
+	* Selección de controles y objetivos de control
+	* Eficacia del SGSI
+	* Auditorias internas y revisiones de la dirección
+	* Correspondencia entre resultados y lo implantado
+	* Implantación de controles
+	* Trazabilidad de los programas, procedimientos, registros y auditorias internas
+
+- Cursos para personas:
+	* Auditor lider: cómo hacer auditorias de certificación
+	* Implementador principal: cómo implementar la norma
+	* Auditor interno
+
+**** CMMI ****
+
+- Ámbito de acción: Implementación
+
+- Preocupación por cómo se implementan las soluciones de software que utilice una organización
+
+- Problemas de calidad y productividad del desarrollo de software
+
+- Mala calidad: no cumplir con las expectaticas del cliente u organización
+	* Requerimientos no cumplidos
+	* Funcionalidades inadecuadas
+	* Atributos no cubiertos
+	* Defectos
+	* Atrasos
+	* Sobre costos
+	* Falta de visibilidad
+
+- Incapacidad para administrar los procesos de desarrollo de software, ya que va más allá de la metodología y las tecnologías
+
+- Mejorar el proceso de desarrollo de software
+
+- Siempre aprender para mejorar los procesos
+
+- Modelo de madurez (basado en experiencia) es un conjunto estructura:
+	* Buenas práctivas
+	* Herramientas de medición
+	* Criterios de análisis
+	* Metodología
+	* Otros
+
+- La experiencia permite: identificar capacidades, compararlas con referencias estándarizadas, identificar debilidades y establecer procesos de mejora continua
+
+- Gran cantidad de modelos de madurez:
+	* Proyectos
+	* Procesos
+	* Personas
+
+- CMMI: integración de modelos de madurez de capacidades
+
+- CMMI es un conjunto de modelos (mejores prácticas) en la gestión de procesos
+	* Sistema de evaluación para identificar y prevenir problemas de costo, demoras y calidad en proyecto de desarrollo de sw
+
+- Objetivos CMMI:
+	* Programas de mejora de procesos de desarrollo de sw
+	* Metas y prácticas para evaluar desempeño y madurez
+	* Identificar que se desea mejorar
+	* Lograr mejora efectiva
+
+- El modelo CMMI no es prescriptivo, dice qué hacer pero no cómo
+	* Modelo flexible
+	* Para cualquier negocio o proyecto
+
+- Actualmente tiene tres modelos CMMI:
+	* Para el desarrollo
+	* Para la adquisición
+	* Para servicios 
+
+- Difcultades CMMI:
+	* Costoso en tiempo y esfuerzo
+	* Requiere compromiso
+	* La evaluación continua puede atentar contra la definición de objetivos concretos de madurez
+	* La evaluación por etapas puede olvidar el objetivo de fondo y centrarse en específicos
+
+- Beneficios CMMI: 
+	* Garantiza que los procesos van mejorando
+	* Involucaración y adaptación con las prácticas
+	* Tiene gran eficacia y es ampliamente adoptada
+	* Disminuye riesgos de la implementación
+	* Aumenta productividad
+	* Mejora la visibilidad
+	* Mejora la planificación
+	* Mejora la calidad del producto
+	* Mas conocimiento sobre la organización
+	* Mejora la comunicación 
+	* Mejora satisfacción del cliente
+
+- CMMI está estructurado para los siguientes componentes: 
+	* Prácticas
+		- Genericas -> actividades que abordan diversos aspectos del trabajo a ser institucionalizado
+		- Específicas -> actividades esperadas para lograr un cierto resultado específico
+	* Metas
+		- Genericas -> objetivos a lograr en actividades genericas
+		- Específicas -> objetivo requerido para un resultado esperado
+	* Áreas de procesos
+	* Niveles de madurez o de capacidades
+	* Representaciones
+
+- Institucionalización: proceso está arraigado en la organización, implica:
+	* Compromiso
+	* Consistencia
+
+- Prácticas y metas genéricas ayudan a institucionalizar las formas de trabajo
+
+- La institucionalización se expresa en niveles (con el logro de los objetivos genericos)
+
+- Procesos definido:  es un p. gestionado que se planifica y controla
+- Procesos gestionad: es un p. realizado que se planifica y ejecuta
+- Procesos realizado: que se lleva a cabo en el trabajo con un objetivo específico
+
+- Para ser definido, un proceso:
+	* Propósito, entradas, criterios de ingreso, actividades, roles, salidas, criterios de salida, medidas, pasos de verificación
+
+- Cuando evoluciona la madurez, se incorpora el cumplimiento de nuevas prácticas
+
+- Áreas de procesos -> conjunto de prácticas de un área de actividad que colectivamente satisfacen objetivos
+	* c/u establece metas genéricas en cada nivel de capacidad
+	* c/u tiene metas específicas
+
+- Cada organización define cómo cumplir objetivos y prácticas esṕecíficas.
+
+- 4 categorías de áreas de procesos, que agrupa áreas que tienen focos o ámbitos cercanos (aplicables en diferentes etapas del ciclo de madurez):
+	* Gestión de proyectos
+	* Gestión de procesos
+	* Soporte
+	* Ingeniería
+
+- Cada área de proceso tiene componentes
+	* Necesarios -> metas genéricas y específicas
+	* Esperados -> prácticas genéricas y específicas
+	* Introductorios -> para poner en marcha una iniciatica de mejora
+
+- Cada área se describe por:
+	* Próposito -> finalidad del área
+	* Notas introductorias -> principales conceptos
+	* Áreas de procesos relacionadas -> referencias
+
+- Representaciones -> rutas para lograr las mejoras
+	* Niveles de capacidad 
+	* Niveles de madurez
+
+- Cada organización escoge el tipo de representación que sea más conveniente y se puede cambiar
+
+- Representación continua -> mejorar de forma incremental un área de procesos individual. Usa nivel de capacidad 
+	* Áreas de proceso específicas
+	* Niveles de capacidad para caracterizar y evaluar casa proceso individual
+	* Prácticas específicas y genéricas relacionadas
+
+- Representación por etapas -> mejorar un conjunto de procesos relacionados incrementalmente. Usa niveles de madurez para el estado global.
+	* Mejora global
+	* Nivel de madurez para un conjunto de áreas
+	* Prácticas específicas y genéricas para un conjunto áreas
+	* Niveles de madurez medidos con objetivos específicos y genéricso de cada conjunto de áreas de procesos
+
+- Niveles  para describir camino evolutivo
+	* Pueden ser resultado de una actividad de calificación (en toda la organización o grupos más pequeños)
+	* Un nivel particular -> cumplir todos los objetivos genéricos del área de proceso
+
+- Nivel de capacidad o de madurez usan mismos componentes del modelo
+
+- Capacidad -> algo que se hace bien y genera resultados comerciales 
+	* Habilidades, recursos, conocimientos
+	* Nivel organizacional
+	* Personas
+	* Procesos
+	* Infraestructura
+	* Tecnología
+
+* Niveles de capacidad que usan representación continua
+	* Nivel 0, incompleto:
+		- No se realiza completamente
+		- Una o más metas específicas no están satisfechos
+		- No existen metas genéricas
+	* Nivel 1, realizada:
+		- logra trabajo necesario para producir productos
+		- Metas específicas satisfechas
+		- Mejoras se pueden perder con el tiempo
+	* Nivel 2, gestionado:
+		- Que se planifica y ejecuta según una política
+		- Personas calificadas con recursos adecuados
+		- Monitoreado, controlado, revisado
+		- Prácticas se conservan en momentos de estrés
+	* Nivel 3, Definido o repetible
+		- Gestionado que se adapta al conjunto de procesos estándar de la organización
+		- Se planifica y controla
+		- Tiene acciones correctivas en caso de desvío
+
+- Se logra nivel de capacidad cuando todos los objetivos genéricos se satisfacen hasta ese nivel
+
+- Nivel de madurez -> prácticas genéricas y específicas relacionadas para un conjunto predefinido de áreas de proceso
+	* Caracteriza desempeño
+	* Mejora del proceso organizacional de forma evolutiva
+
+- Existen 5 niveles de madurez (enfoque de representación por etapas):
+	* Inicial
+		- Procesos adhoc y caóticos
+		- No proporciona entorno estable
+		- Éxito depende de la competencia de las personas
+		- Exceden presupuesto y cronograma
+	* Gestionado
+		- Procesos se planifican y ejecutan con una política
+		- Personal calificado con recursos adecuados
+		- Involucran partes interesadas
+		- Monitoreados, controlados, revisados y evaluados
+		- Estado de productos visible
+	* Definido
+		- Bien caracterizados y entendidos
+		- Describen estándares de procesos
+		- Establece coherencia en la organización (pautas o guías)
+	* Gestionado cuantitativamente
+		- Objetivos cuantitativos para calidad y rendimiento
+		- Criterios para gestión de proyectos
+		- Objetivos se basan en necesidades del cliente, usuarios, organización e implementadores
+		- Términos estadísticos
+	* Optimizado
+		- Mejora continuamente, en base a comprensión cuantitativa de objetivos comerciales y necesidades
+		- Enfoque cuantitativo
+		- Mediante procesos incrementales, innovadores, y mejoras tecnológicas
+
+- Cada área de procesos esta asociada a un nivel de madurez
+
+- En un conjunto de áreas de procesos todas deben alcanzar sus objetivos para lograr dicho nivel de madurez
+
+- Se puede establecer una equivalencia entre representación continua y por etapas
+
+- No hay certificación CMMI, realmente es una evaluación o apreciación (SCAMPI)
+
+- SCAMPI se utiliza para:
+	* Producir un perfil de capacidades 
+	* Diagnósticos internos
+	* Evaluación de proveedores
+
+- Requisitos SCAMPI
+	* Realizado por alguien acreditado
+	* Equipo de evaluación de 4 personas
+	* Experiencia mínima
+	* Equipo sin responsabilidad sobre proyectos seleccionados
+
+- Tipos de SCAMPI:
+	* A -> mayor duración y entrega nivel de madurez
+	* B -> no entrega nivel de madurez
+	* C -> no entrega un nivel de madurez
+
+- SCAMPI, pueden ser usados representación continua o por etapas (+ usada)
+
+- Las personas si pueden certificarse en CMMI
+	* Trainer: enseña modelo CMMI y asesora empresa
+	* Lead appraiser: dirige profesionales entrenados para evaluar y determinar capacidad de proceso.
+
+**** PMI-PMBOK ****
+
+- Ámbitos de acción: Implementación
+
+- Proyecto en ingeniería: Un conjunto de actividades planificadas, en las que se desarrollan esfuerzos y trabajos, de en base al conocimiento y al empleo de las ciencias de la ingeniería y la tecnología, para lograr, a partir de un conjunto de insumos o elementos originales, un producto o resultados concretos, observables y cuantificables
+
+- Proyecto en ingeniería de SW: El proceso de gestión y trabajo necesario, para la creación, desarrollo, implementación, mantención, mejora o evolución de un Software, Sistema, Solución o Servicio, la cual encierra un conjunto de actividades que involucran, entre otras, planeamiento, diseño, construcción o implementación, pruebas, puesta en marcha y entrega y depuración
+
+- Gestión de TICs se realiza conjunto de actividades organizadas para lograr propósito de gestión y entrega de servicios y prestaciones
+	* Se debe implementar sistemas, soluciones etc
+	* Establecer proyectos para gestionar complejidad de actividades
+
+- Los sistemas se adaptan en el tiempo 
+	* Por lo tanto hay proyecyos de mantención y corrección
+
+- Prevenir pues sino lo peor puede pasar
+
+- Dimensiones de una dificultad:
+	* Técnicas
+	* Planeamiento y coordinación
+	* Recursos
+	* Situaciones inesperadas
+	* Cambio escenarios o condiciones
+
+- Fallas comunes en la ejecución de proyectos:
+	* Falta de compromiso del cliente
+	* No hay claridad en objetivos ni resultados
+	* Alejado de la realidad (ej en dineros)
+	* No existen normas de gestión
+	* Mala definición de roles
+	* No hay visión del estado
+	* Mala documentación
+	* Problemas de comunicación
+	* Retrasos
+	* Sin control de cambios
+	* Muchas más
+
+- Gestión de proyectos -> asegurar la correcta ejecución de las actividades en el ciclo de vida de un proyecto, gestionando hitos, entregables, recursos, riesgos, cambios y presupuestos.
+
+- PMI: asociación profesional que promueve metodogías y buenas prácticas de gerenciamiento de proyectos. Realiza capacitación y entrenamieto.
+	* Biblioteca de estándares
+		- Fundamentos de dirección de proyectos
+		- Práctica de dirección de proyectos
+		- Marcos de referencia
+		- Extensiones a estándares:
+			* Dirección de programas
+			* Dirección de portafolios
+	* Ha realizado programas de certificación para profesionalizar el rol del gestor de proyectos
+
+- PMBOK: guía con los fundamentos de la dirección de proyectos
+	* Prácticas comprobasas y aceptadas ampliamente
+	* Para la aplicación de una metodología que incluye:
+		- Conocimiento
+		- Habilidades
+		- Técnicas
+		- Herramientas
+	* Objetivo: identificar mejores prácticas, generalmente aceptadas
+
+- Prácticas generalmente aceptadas:
+	* Que son aplicables a la mayoría de los proyectos
+
+- Mejores prácticas:
+	* Existe acuerdo en que su aplicación es útil para lograr el éxito
+
+- Se debe aplicar lo que es apropiado para cada proyecto
+
+- Áreas de experiencia cubiertas por PMBOK:
+	* Fundamentos de la dirección: conocimiento propio de la dirección
+		- Conceptos y definiciones generales de la dirección
+		- Definición ciclo de vida
+		- 5 grupos de procesos
+		- 10 áreas de conocimiento
+	* Conocimiento, normas y regulaciones del área de aplicación: ámbitos en que operan o se aplican los resultados del proyecto, definifo en términos del
+		- Producto 
+		- Tipo de cliente
+		- Sector de la industria
+	* Comprensión del entorno: contexto social, económico, ambiental y con impacto positivos, negativos, deseados o no deseados.
+		- Factores ambientales de la empresa
+		- Entorno de negocio
+		- Entorno operativo
+	* Habilidades interpersonales: habilidades blandas del director
+	* Conocimientos y habilidades de dirección general: comprende planificación, organización, selección de personal, ejecución y control de operaciones
+		- Financiera
+		- Contratos
+		- Logística
+		- Etc
+
+- PMBOK es un modelo de acción que engloba las áreas de experiencia y las relaciona con procesos y áreas de conocimiento
+
+- Proyecto según PMBOK: Un proyecto es un esfuerzo temporal que se lleva a cabo para crear un producto, servicio o resultado único
+	* Debe tener inicio y fin
+	* Genera un producto, servicio o resultado
+	* Crea entregables únicos, único porque cada proyecto es único
+	* Fin de un proyecto:
+		- Se logran objetivos
+		- Fin del proyecto con objetivos cumplidos o no
+		- No existe necesidad que originó proyecto
+		- Cliente lo termina
+
+- Éxito proyecto: se mide en términos de completar un proyecto sujeto a restricciones de alcance, tiempo, costo, calidad, recursos y riesgos (son interdependientes)
+
+- Equipo de proyecto
+	* Una o varias personas
+	* Una o múltiples unidades
+	* Incluso múltiples organizaciones
+	* Incluye:
+		- Director -> lider del equipo
+		- Personal de dirección
+		- Otros miembros
+
+- Gestión de operaciones -> operaciones != proyectos
+	* Ámbito de trabajo que se preocupa de la producción continua 
+	* Desarrollo de manera eficiente, con recursos óptimos y cumpliendo demanda de clientes
+	* Procesos que transforman entradas en salidas
+	*Está fuera del alcance de la PMBOK
+
+- Resultados de un proyecto tienen como destino áreas operacionales de la organización
+
+- Proyectos, Programas y portafolios son conceptos distintos
+	* Programa: grupo de actividades, proyectos y operaciones que se gestionan de manera coordinada con un fin específico.
+	*Portafolio: conjunto de proyectos, programas y operaciones que se gestionan como grupo
+
+- Oficina de Gestión de Proyectos (PMO)
+	* Estandariza los procesos de gobierno relacionados con el proyecto
+	* Comparte recursos, metodologías, herramientas y técnicas
+	* Puede dar soporte o dirigir propios proyectos
+	* Distintos tipos:
+		- De apoyo: es consultivo, grado de control reducido
+		- De control: dan soporte y exigen cumplimiento, grado de control moderado
+		* Directiva: ejercen control de los proyectos, grado de control elevado
+
+- Dirección de proyectos: “La aplicación de conocimientos, habilidades, herramientas y técnicas a las actividades del proyecto para cumplir con los requisitos del mismo”.
+
+- Dirigir proyecto implica:
+	* Identificar requisitos
+	* Preocuparse de los interesados
+	* Comunicarse con los interesados
+	* Gestionar a los interesados
+	* Equilibrar restricciones
+
+- Las características de cada proyeto influyen sobre las restricciones
+
+- Proyectos no son estáticos
+
+- El desarrollo de un plan de proyecto es iterativa y progresiva
+
+- Director de proyecto o JP lidera para alcanzar objetivos
+
+- Existen diversas estucturas de organización y dependencia jerárquica
+
+- Dirección de proyectos es una disciplina estrátegica
+
+- El director de proyecto debe satisfacer necesidades de tareas propias del proyecto, del equipo e individuales.
+
+- El director de proyecto debe tener habilidades:
+	* Esécíficas en el área
+	* En gestión
+	* En dirección de proyectos
+	* Capacidad de lograr objetivos
+	* Interpersonales
+
+- Ciclo de vida de un proyecto: fases que atraviesa un proyecto de inicio a cierre
+	* Por lo general las fases son secuenciales
+	* Acotadas en el tiempo
+	* Se pueden dividir por:
+		- Objetivos funcionales o parciales
+		- Resultados o entregables
+		- Hitos específicos
+		- Disponibilidad financiera
+
+- El ciclo de vida proporciona marco de referencia básico para dirigir proyecto
+
+- Se pueden organizar bajo una estructura genérica de ciclo de vida:
+	* Inicio
+	* Organización 
+	* Ejecución
+	* Cierre
+
+- Costos y dotación de personal son bajos al inicio de un proyecto, máximos durante el desarrollo y caen en el cierre
+
+- Riesgos son mayores al inicio del proyecto y disminuyen en cuanto avanza
+
+- Corregir errores es más caro a medida que se acerca el cierre de un proyecto
+
+- La dirección de proyectos se logra mediante la ejecución de procesos
+
+- Tipos de procesos:
+	* Para la dirección de proyectos (Estos describe PMBOK)
+	* Orientados al producto
+
+- Los procesos para la dirección de proyectos se agrupan en 5 categorías:
+	* De inicio -> Son aquellos que definen una nueva fase o proyecto
+	* De planificación -> Define alcance del proyecto, objetivos, y el plan
+	* De ejecución -> Para completar el trabajo definido
+	* De monitoreo y control -> Para rastrear, revisar y regular el progreso y desempeño
+	* De cierre -> Para finalizar todas las actividades
+
+- Los procesos de dirección están integrados y se superponen, en total PMBOK describe 47 procesos
+	* Se agrupan en 10 áreas de conocimiento
+
+- Un área de conocimiento -> conjunto de conceptos, términos y actividades (Todas deben ser gestionadas ya que son base fundamental de la dirección)
+	* Ámbito profesional
+	* Ámbito de la dirección
+	* Área de especialización
+
+- Gestión de la integración del proyecto
+	* Para distintos procesos de dirección de proyectos
+	* Vitales para cerrar un proyecto y satisfacer a los interesados
+	* Concentrar recursos y esfuerzo para anticipar problemas y coordinar trabajo
+	* Incluye:
+		- Acta de constitución
+		- Enunciado del alcance
+		- Plan de gestión
+		- Dirigir y gestionar la ejecución
+		* Controlar
+		* Control de cambios
+		* Cierre
+
+- Gestión del alcance
+	* Para asegurar que se incluye todo el trabajo requerido (y solo lo que se requiere)
+	* Se relaciona con la definición y el control de lo que está o no incluido
+	* Considera:
+		- Alcance
+		- EDT
+
+- Gestión del tiempo 
+	* Para lograr conclusión del proyecto
+	* Incluye:
+		- Cronograma
+		- Def. de actividades
+		- Secuencia de actividades
+		- Estimación de recursos de actividades
+		- Estimación duración de actividades
+
+- Gestión del costo
+	* Lo necesario para completar dentro del presupuesto
+	* Abarca:
+		- Estimación costos
+		* Presupuesto
+
+- Gestión de la calidad
+	* Para satisfacer las necesidades por las cuales se emprendió
+	* Implementa actividades de mejora continua
+
+- Gestión de recursos humanos
+	* Los que organizan y dirigen equipo
+	* Todos quienes tienen roles o responsabilidades
+
+- Gestión de las comunicaciones
+	* Todo lo relacionado a la informaicón del proyecto en tiempo y forma
+	* Da enlaces entre personas e información
+	* Incluye:
+		- Comunicaciones
+		- Distribución información
+		- Informes de rendimientos
+		- Gestión de interesados
+
+- Gestión de riesgos
+	* Son procesos que se actualizan en el tiempo y están relacionados a los riesgos
+	* Aumentar impacto y probabilidad de even tos positivos
+	* Disminuir probabilidad e impacto de eventos adversos
+
+- Gestión adquisiciones
+	* Para comprar o adquirir fuera del equipo
+	* Gestión de contratos, control de cambios
+
+- Gestión de interesados
+	* Para identificar a stakeholders
+	* Analizar sus expectativas, impacto, desarrollar estrategias, lograr participación
+
+- Certificaciones personales en dirección de proyectos
+	* Técnico Certificado en Dirección de Proyectos
+	* Profesional en Dirección de Programación del PMI 
+	* Profesional en Dirección de Programas
+	* Profesional en Dirección de Riesgos del PMI
+	* Practicante Certificado por PMI en Agile
